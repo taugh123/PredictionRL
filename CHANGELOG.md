@@ -4,18 +4,41 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 « Nouveautés » dans le programme. Écrite pour les joueurs : ce qui change pour eux, pas le détail technique.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
-## 1.1.3
+## 1.2.0
 
 **Amélioré**
-- Mise à jour du compte qui publie Prédiction RL : cette version change l'adresse où le programme cherche ses mises à jour.
-  Installe-la pour continuer à recevoir les prochaines versions. Rien ne change pour toi à l'utilisation, et tes données
-  restent sur ton PC.
+- Sécurité des mises à jour : le programme n'installe plus que des versions authentifiées comme venant bien de Prédiction RL.
+  Une version modifiée par quelqu'un d'autre est refusée, même si elle est publiée à la place de la vraie.
+- Le programme est reconstruit pour être plus difficile à copier ou à modifier. Rien ne change pour toi à l'utilisation,
+  et tes données restent sur ton PC.
+- L'installateur et les propriétés du fichier n'indiquent plus « open source » : le code n'est plus publié depuis la 1.1.2.
+
+**Corrigé**
+- Les fichiers de mise à jour téléchargés sont désormais rangés dans un dossier temporaire réservé à ton compte Windows.
 
 <!-- en -->
 
 **Improved**
-- The account that publishes Prédiction RL has been renamed: this version updates the address the app checks for updates.
-  Install it to keep receiving future versions. Nothing changes for you when using it, and your data stays on your PC.
+- Update security: the app now only installs versions that are verified as coming from Prédiction RL. A version modified by
+  someone else is refused, even if it is published in place of the real one.
+- The app has been rebuilt to be harder to copy or modify. Nothing changes for you when using it, and your data stays
+  on your PC.
+- The installer and the file properties no longer say "open source": the code has not been published since 1.1.2.
+
+**Fixed**
+- Downloaded update files are now stored in a temporary folder reserved for your Windows account.
+
+## 1.1.3
+
+**Amélioré**
+- Cette version change l'adresse où le programme cherche ses mises à jour. Installe-la pour continuer à recevoir les
+  prochaines versions. Rien ne change pour toi à l'utilisation, et tes données restent sur ton PC.
+
+<!-- en -->
+
+**Improved**
+- This version changes the address the app checks for updates. Install it to keep receiving future versions. Nothing
+  changes for you when using it, and your data stays on your PC.
 
 ## 1.1.2
 
