@@ -1,0 +1,39 @@
+name: Donner un avis
+description: Ton avis sur Prédiction RL (relu avant d'apparaître sur le site)
+title: "Avis"
+labels: ["avis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Ton avis est relu avant d'être publié sur le site. N'écris aucune information personnelle.
+        Thanks! Your review is checked before it is published on the site. Please don't write any personal information.
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo (facultatif) / Nickname (optional)
+  - type: dropdown
+    id: note
+    attributes:
+      label: Note / Rating
+      options:
+        - 5/5
+        - 4/5
+        - 3/5
+        - 2/5
+        - 1/5
+    validations:
+      required: true
+  - type: textarea
+    id: avis
+    attributes:
+      label: Ton avis / Your review
+    validations:
+      required: true
+  - type: checkboxes
+    id: accord
+    attributes:
+      label: Publication
+      options:
+        - label: J'accepte que mon avis soit publié sur le site. / I agree that my review may be published on the site.
+          required: true

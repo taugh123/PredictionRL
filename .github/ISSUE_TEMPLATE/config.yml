@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problèmes fréquents (à lire avant de signaler)
+    url: https://github.com/taugh123/PredictionRL#problèmes-fréquents
+    about: Overlay invisible, jeu non détecté, prédiction impossible...
+  - name: Signaler une faille de sécurité (en privé)
+    url: https://github.com/taugh123/PredictionRL/security/advisories/new
+    about: Ne publie pas de faille dans un ticket public : utilise ce formulaire privé, seul le mainteneur le voit.

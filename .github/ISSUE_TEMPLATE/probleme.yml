@@ -1,0 +1,37 @@
+name: Signaler un problème
+description: Quelque chose ne marche pas (overlay invisible, pas de prédiction, plantage...)
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Avant tout : si l'overlay ne s'affiche pas, vérifie le mode d'affichage du jeu
+        ([Problèmes fréquents](https://github.com/taugh123/PredictionRL#problèmes-fréquents)).
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Que se passe-t-il ?
+      description: Ce que tu fais, ce que tu attends, ce qui arrive à la place.
+    validations:
+      required: true
+  - type: dropdown
+    id: affichage
+    attributes:
+      label: Mode d'affichage de Rocket League
+      options:
+        - Plein écran fenêtré (borderless)
+        - Fenêtré
+        - Plein écran (exclusif)
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Diagnostic
+      description: |
+        Clic droit sur l'icône Prédiction RL (à côté de l'horloge) > « Copier le diagnostic », puis colle ici (Ctrl+V).
+        Il ne contient ni pseudo ni détail de tes games.
+      render: text
+    validations:
+      required: true

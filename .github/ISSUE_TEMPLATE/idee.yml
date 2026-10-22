@@ -1,0 +1,11 @@
+name: Proposer une idée
+description: Une fonctionnalité ou une amélioration
+labels: ["idée"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Ton idée
+      description: Ce que tu aimerais, et pourquoi ça t'aiderait en jeu.
+    validations:
+      required: true
