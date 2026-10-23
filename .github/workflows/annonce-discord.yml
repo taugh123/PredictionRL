@@ -1,0 +1,35 @@
+# Annonce chaque nouvelle version dans #annonces du Discord de la communauté.
+# Ce fichier vit dans le dépôt PUBLIC (.github/workflows/) : les minutes de GitHub Actions y sont gratuites. Sa source est
+# outils/publique/annonce-discord.yml du dépôt privé ; le script qu'il lance (.github/scripts/annoncer_discord.py) est
+# recopié dans ce dépôt par la publication de chaque release. Secret : DISCORD_ANNONCES_WEBHOOK. Variables facultatives :
+# SITE_URL (https://domaine) et DISCORD_ROLE_VERSIONS (identifiant du rôle « Notifications de versions »).
+name: Annonce Discord
+
+on:
+  release:
+    types: [published]
+
+permissions: {}
+
+jobs:
+  annoncer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # le texte de la release passe par l'environnement, jamais collé dans la commande
+      - name: Annonce
+        env:
+          DISCORD_ANNONCES_WEBHOOK: ${{ secrets.DISCORD_ANNONCES_WEBHOOK }}
+          DISCORD_ROLE_VERSIONS: ${{ vars.DISCORD_ROLE_VERSIONS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          TAG: ${{ github.event.release.tag_name }}
+          NOTES: ${{ github.event.release.body }}
+          URL: ${{ github.event.release.html_url }}
+          PRERELEASE: ${{ github.event.release.prerelease }}
+        run: python .github/scripts/annoncer_discord.py
