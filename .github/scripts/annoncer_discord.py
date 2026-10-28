@@ -43,11 +43,11 @@ def couper(texte, lien):
 
 def charge(version, fr, en, lien, site=None, role=None):
     adresse = {"url": lien} if lien else {}
-    embeds = [{"title": f"Prédiction RL {version} est disponible", **adresse, "color": 0x4C8DFF, "description": couper(fr, lien)}]
+    embeds = [{"title": f"Prédiction RL {version} vient de sortir", **adresse, "color": 0x4C8DFF, "description": couper(fr, lien)}]
     if en:
         embeds.append({"title": f"Prédiction RL {version} is out", **adresse, "color": 0x2FBF71, "description": couper(en, lien)})
-    contenu = ("Le programme se met à jour tout seul quand Rocket League est fermé. · "
-               "The program updates itself when Rocket League is closed.")
+    contenu = ("Une nouvelle version est là ! Le programme se mettra à jour tout seul dès que Rocket League sera fermé. "
+               "*(The program updates itself as soon as Rocket League is closed.)*")
     if site:     # liens vers le site : télécharger à la main, lire la documentation, toutes les nouveautés
         contenu += (f"\n**[Télécharger / Download]({site}/)** · [Documentation]({site}/documentation.html) · "
                     f"[Nouveautés / What's new]({site}/nouveautes.html)")
