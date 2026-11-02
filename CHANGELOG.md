@@ -4,6 +4,32 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 « Nouveautés » dans le programme. Écrite pour les joueurs : ce qui change pour eux, pas le détail technique.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.2.2
+
+**Nouveau**
+- Une barre « pression » sur l'overlay montre qui domine en ce moment : elle part vers la droite, en vert, quand ton équipe
+  met la pression, vers la gauche, en rouge, quand c'est l'adversaire. « OCCASION ! » ou « DANGER ! » s'affiche quand une
+  équipe a une vraie chance de marquer dans les secondes qui viennent, et « +4% » en vert ou « -3% » en rouge dit de combien
+  la situation fait monter ou baisser ta proba. Elle se masque dans le menu (F2).
+
+**Amélioré**
+- La proba en direct suit maintenant la pression d'une équipe sur l'autre pendant une vingtaine de secondes, et plus
+  seulement l'occasion du moment : quand une équipe enchaîne les tirs, les arrêts adverses, les démos ou que l'adversaire
+  n'arrive plus à dégager, sa proba monte et celle d'en face baisse tant que ça dure. Appris sur tes propres parties.
+
+<!-- en -->
+
+**New**
+- A “pressure” bar on the overlay shows who is on top right now: it grows to the right, in green, when your team is putting
+  the pressure on, to the left, in red, when the opponents are. “CHANCE!” or “DANGER!” shows when a team has a real chance
+  of scoring in the next few seconds, and “+4%” in green or “-3%” in red tells you how much the situation is raising or
+  lowering your probability. It can be hidden in the menu (F2).
+
+**Improved**
+- The live probability now follows one team's pressure on the other over about twenty seconds, not just the chance of the
+  moment: when a team keeps shooting, forcing saves, demolishing or the opponents can no longer clear the ball, its
+  probability goes up and the other team's goes down for as long as it lasts. Learned from your own matches.
+
 ## 1.2.1
 
 **Nouveau**
