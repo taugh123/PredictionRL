@@ -4,6 +4,20 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 « Nouveautés » dans le programme. Écrite pour les joueurs : ce qui change pour eux, pas le détail technique.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.2.3
+
+**Amélioré**
+- Version d'entretien : aucune nouveauté en jeu. Les composants internes du programme (le compilateur qui le fabrique et le
+  navigateur qui lit tracker.gg) sont passés à leurs dernières versions correctives. Si tracker.gg ou la mise à jour
+  automatique se comportaient bizarrement chez toi, cette version ne devrait rien changer, mais elle garde le programme à jour.
+
+<!-- en -->
+
+**Improved**
+- Maintenance release: nothing new in game. The program's internal components (the compiler that builds it and the browser that
+  reads tracker.gg) were moved to their latest fix versions. If tracker.gg or automatic updates ever misbehaved for you, this
+  version should not change that, but it keeps the program up to date.
+
 ## 1.2.2
 
 **Nouveau**
