@@ -4,6 +4,43 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 « Nouveautés » dans le programme. Écrite pour les joueurs : ce qui change pour eux, pas le détail technique.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.3.0
+
+**Nouveau**
+- Nouvel overlay : ta proba dans un anneau, net sur le jeu (bords lissés, plus de cadre autour). Il prend les couleurs de
+  Rocket League : ta couleur, bleu ou orange, quand c'est en ta faveur, celle d'en face sinon. Dessous, la raison du
+  moment (« ▲ +4 % Tu presses », « ▼ –12 % Danger de but »).
+- « Placer » (menu F2, onglet Overlay) : choisis l'une des 9 zones de l'écran pour l'anneau, la molette règle sa taille.
+- Sous l'anneau, tu choisis ce que tu veux voir en plus : score et chrono, proba avant-match, barre de pression, courbe de
+  la proba. Taille et opacité se règlent aussi dans le menu.
+- Les messages du programme (lancement, mise à jour prête…) s'affichent dans une petite bulle en haut à gauche, qui
+  disparaît seule.
+- Mises à jour automatiques désactivées : un bouton cherche une nouvelle version à la demande, et un autre l'installe.
+
+**Amélioré**
+- Le menu (F2) est refait aux couleurs de Rocket League : quatre onglets (Match, Overlay, Prédiction, Application), et
+  chaque réglage se change comme dans les menus du jeu, avec les flèches « ‹ › ». La page Match se lit comme un score
+  télé : ta proba en grand, une barre partagée entre les deux équipes, les joueurs en colonnes.
+- Changer la langue dans le menu s'applique dès sa prochaine ouverture, sans relancer le programme.
+
+<!-- en -->
+
+**New**
+- New overlay: your win chance in a ring, sharp over the game (smooth edges, no box around it). It uses Rocket League's
+  colors: your team's color, blue or orange, when things go your way, the other team's otherwise. Below it, the reason of
+  the moment (“▲ +4% You're pressing”, “▼ –12% Goal danger”).
+- “Place” (F2 menu, Overlay tab): pick one of the 9 screen zones for the ring, the mouse wheel sets its size.
+- Under the ring, choose what else you want to see: score and clock, pre-match chance, pressure bar, win chance curve.
+  Size and opacity can be set in the menu too.
+- The program's messages (startup, update ready…) show in a small bubble at the top left, which goes away on its own.
+- Automatic updates turned off: one button checks for a new version on demand, another installs it.
+
+**Improved**
+- The menu (F2) is redesigned in Rocket League's colors: four tabs (Match, Overlay, Prediction, Application), and every
+  setting changes like in the game's menus, with the “‹ ›” arrows. The Match page reads like a TV scoreboard: your chance
+  in big numbers, a bar shared between both teams, players in columns.
+- Changing the language in the menu applies the next time it opens, without restarting the program.
+
 ## 1.2.3
 
 **Amélioré**
