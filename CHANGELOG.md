@@ -4,6 +4,47 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 « Nouveautés » dans le programme. Écrite pour les joueurs : ce qui change pour eux, pas le détail technique.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.3.1
+
+**Sécurité**
+- Le navigateur invisible qui lit tracker.gg tourne maintenant dans son bac à sable, et il ne charge plus que tracker.gg :
+  ni publicités, ni scripts d'autres sites. Il se met aussi à jour avec le programme, au lieu de garder la version de son
+  premier téléchargement.
+- Le diagnostic à coller dans un ticket ne contient plus ton nom de session Windows, le nom de ton PC, ni les pseudos des
+  autres joueurs.
+- Aucun site ne peut plus afficher la page de l'overlay Steam dans un cadre caché pour te faire cliquer dessus.
+- Les enregistrements de tes matchs de plus de 6 mois sont effacés : ils gardaient les pseudos des autres joueurs.
+
+**Corrigé**
+- Ton historique de parties ne peut plus être vidé par un arrêt brutal du PC pendant qu'il est enregistré, et une ligne
+  abîmée ne le rend plus illisible.
+- Quand un adversaire porte le même pseudo que toi sur une autre plateforme, le programme ne le prend plus pour toi : il te
+  reconnaît grâce à la caméra du coup d'envoi.
+- Après une version bêta, c'est bien la version finale du même numéro qui s'installe, et non la bêta.
+- Les installateurs des mises à jour précédentes ne s'accumulent plus dans le dossier temporaire de Windows, et les stats
+  de tracker.gg gardées sur ton PC s'effacent une fois périmées.
+- Un pseudo qui contient « @ » est lu en entier.
+
+<!-- en -->
+
+**Security**
+- The invisible browser that reads tracker.gg now runs in its sandbox and only loads tracker.gg: no ads, no scripts from
+  other sites. It also updates along with the program, instead of keeping the version from its first download.
+- The diagnostics you paste into an issue no longer contain your Windows session name, your PC's name or the usernames of
+  other players.
+- No website can show the Steam overlay page in a hidden frame to make you click on it anymore.
+- Recordings of your matches older than 6 months are deleted: they kept the usernames of other players.
+
+**Fixed**
+- Your match history can no longer be wiped by the PC shutting down abruptly while it is being saved, and a damaged line no
+  longer makes it unreadable.
+- When an opponent has the same username as you on another platform, the program no longer takes them for you: it recognizes
+  you with the kickoff camera.
+- After a beta version, the final version with the same number is the one that installs, not the beta.
+- Installers from previous updates no longer pile up in Windows' temporary folder, and the tracker.gg stats kept on your
+  PC are deleted once they expire.
+- A username that contains "@" is read in full.
+
 ## 1.3.0
 
 **Nouveau**
