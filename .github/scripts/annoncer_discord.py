@@ -28,7 +28,7 @@ LIMITE_DESCRIPTION = 3800      # un embed accepte 4096 caractères : on garde de
 
 
 def analyser(notes):
-    """Texte d'une release -> (français, anglais ou None). Le pied de page « Télécharge… » (après ---) est retiré."""
+    """Texte d'une release -> (français, anglais ou None). Le pied de page « Installateur… » (après ---) est retiré."""
     notes = (notes or "").replace("\r\n", "\n").split("\n---\n")[0].strip()
     francais, _, anglais = notes.partition(SEPARATEUR_ANGLAIS)
     return francais.strip(), anglais.strip() or None
