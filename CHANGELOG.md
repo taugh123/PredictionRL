@@ -5,6 +5,16 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 Neutre, en français comme en anglais (ni « tu », ni « vous », ni « you » : un test le garde) et courte : une puce, une ligne.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.3.3
+
+**Amélioré**
+- Nouvelle icône : l'anneau de probabilité autour du badge « RL », nette aussi près de l'horloge.
+
+<!-- en -->
+
+**Improved**
+- New icon: the probability ring around the “RL” badge, sharp in the notification area too.
+
 ## 1.3.2
 
 **Corrigé**
