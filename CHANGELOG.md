@@ -5,6 +5,34 @@ Chaque version publiée a sa section ici. Elle sert à la fois de notes de versi
 Neutre, en français comme en anglais (ni « tu », ni « vous », ni « you » : un test le garde) et courte : une puce, une ligne.
 La partie anglaise de chaque section vient après la ligne `<!-- en -->`.
 
+## 1.3.4
+
+**Amélioré**
+- Nouveau logo dans le menu (F2) et nouvelles images dans l'installateur.
+- Nouvelle icône, avec la pastille « RL » rose et orange du nouveau logo.
+- Pendant le match, la probabilité réagit de nouveau aux occasions et à la pression, pas seulement aux buts.
+- Jeu en plein écran exclusif : une notification Windows explique pourquoi l'anneau et le menu ne s'affichent pas.
+
+**Corrigé**
+- Menu (F2) en anglais : les interrupteurs affichent « On » et « Off » au lieu de « Activé » et « Désactivé ».
+- Quand tracker.gg limite les demandes, la prédiction patiente puis estime le MMR au lieu d'être perdue.
+- Un bot présent au début du match (joueur qui charge encore) ne bloque plus la prédiction pour toute la partie.
+- Le match qui suit un podium n'est plus ignoré : l'anneau et la prédiction s'affichent de nouveau.
+
+<!-- en -->
+
+**Improved**
+- New logo in the menu (F2) and new images in the installer.
+- New icon, with the pink and orange “RL” badge of the new logo.
+- During the match, the probability reacts again to chances and pressure, not only to goals.
+- Game in exclusive fullscreen: a Windows notification explains why the ring and the menu do not show.
+
+**Fixed**
+- Menu (F2) in English: the switches show “On” and “Off” instead of “Activé” and “Désactivé”.
+- When tracker.gg limits requests, the prediction waits, then estimates the MMR instead of being lost.
+- A bot present at the start of the match (a player still loading) no longer blocks the prediction for the whole game.
+- The match after a podium is no longer ignored: the ring and the prediction show again.
+
 ## 1.3.3
 
 **Amélioré**
